@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+.section__heading{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 10px;
+    color: rgb(16, 10, 10);
+    /* text-align: center; */
+    /* margin-bottom: 2rem; */
+}
+main{
+    margin-top: 65px;
+}
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+/* Navbar Section */
+.logo__icon{
+    height: 50px;
+    margin-top: 10px;
+    width: auto;
+}
+.navLink{
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.mobileNavLink{
+    color: black;
+}
+.mobileNavLink:hover{
+    color: #ffc107;
+}
+
+/* Navbar Section */
+
+
+/* Crousal Section Start here */
+.custom__slider{
+    height: 65vh;
+}
+
+@media screen and (max-width: 480px){
+    .custom__slider{
+        height: 50vh;
+    }
+}
+    
+
+
+/* crousal Section end here */
